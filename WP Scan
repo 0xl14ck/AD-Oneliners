@@ -14,4 +14,3 @@ nmap -sV --script http-wordpress-enum 10.11.1.234   if ping probes are blocked, 
 nmap -Pn --script http-wordpress-enum --script-args check-latest=true,search-limit=10 10.11.1.234 
 
 nmap -sV 10.11.1.234 --script http-wordpress-enum --script-args limit=25 
-

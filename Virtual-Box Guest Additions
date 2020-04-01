@@ -1,0 +1,15 @@
+Add virtualbox guest additions as Secondary IDE controller under "settings > storage" 
+
+boot up kali linux
+
+double click virtual box guest cd icon
+
+copy VBoxLinuxAdditions.run to Desktop
+
+chmod 775 the VBoxLinuxAdditions.run file
+
+run the VBoxLinuxAdditions.run file
+
+reboot Kali
+
+ now you are full screen

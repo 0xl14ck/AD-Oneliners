@@ -1,0 +1,3 @@
+tar example
+
+tar -xvf unix-privesc-check-master.zip

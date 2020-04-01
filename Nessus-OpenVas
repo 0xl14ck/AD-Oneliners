@@ -1,0 +1,5 @@
+/etc/init.d/nessusd start  <-- this will start nessus
+
+https://kali:8834/
+
+https://127.0.0.1:9392/

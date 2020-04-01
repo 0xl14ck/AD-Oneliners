@@ -1,0 +1,5 @@
+Base64 output of commands
+
+base64 /out:true
+
+base64 /out:false

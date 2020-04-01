@@ -1,0 +1,40 @@
+redis
+
+command list
+
+http://redis.io/commands
+http://blaszczakm.blogspot.com/2016/03/kevgir-vm-writeup.html
+http://blog.knownsec.com/2015/11/analysis-of-redis-unauthorized-of-expolit/  <-- detailed
+
+--------------------------------------
+
+Commands I used, and work from ~ directory
+
+ssh-keygen -t rsa
+
+* You will be asked
+
+Enter file in which to save the key (/root/.ssh/id_rsa): 
+/root/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa.
+Your public key has been saved in /root/.ssh/id_rsa.pub.
+
+*******When you are asked the above I just hit enter to get all defaults -- then I get the following output
+
+
+Your public key has been saved in /root/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:j2G4Ol5LoJR9bgy808TvXz8W56KVp/o/leF9uWcKl3c root@kali
+
+***Now I enter
+
+(echo -e "\n\n"; cat id_rsa.pub; echo -e "\n\n") > /root/Desktop/foo.txt  <--this will output 
+
+the keygen to the desktop
+
+to be continued
+
+---------------------------------

@@ -1,0 +1,3 @@
+port 
+
+6379 - redis - usage redis-cli -h <ip-address>

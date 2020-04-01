@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/rvrsh3ll/Misc-Powershell-Scripts/master/Get-BrowserData.ps1
+
+Get-BrowserData.ps1 | Format-List
+

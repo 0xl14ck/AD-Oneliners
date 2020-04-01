@@ -1,0 +1,16 @@
+Assemble a file
+
+as write2.s -o write2.o && ld write2.o -o write2
+
+Disassemble a File
+
+objdump -d write2
+
+
+Debugging with GDB + GEF
+
+gdb write2
+
+break _start
+
+run

@@ -1,0 +1,17 @@
+https://forums.hak5.org/topic/40971-info-tools/ <----Go here and download Impacket and Responder
+
+https://storage.googleapis.com/bashbunny_tools/impacket-bunny.deb
+https://storage.googleapis.com/bashbunny_tools/responder-bunny.deb
+https://storage.googleapis.com/bashbunny_tools/gohttp-bunny.deb
+
+Good setup video
+https://www.youtube.com/watch?v=VI1ie4cAIho
+
+Set up bash bunny - 
+
+1. Download firmware from
+2. https://wiki.bashbunny.com/downloads.html
+3. Place firmware version into root of bash bunny - Do not unzip or decompress file
+4. Safely remove bash bunny, and insert bash bunny back into computer, wait 10 minutes for flash to complete.
+5. Follow instructions on youtube video above
+
